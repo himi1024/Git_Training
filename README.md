@@ -15,9 +15,25 @@ cat /c/Users/night/.ssh/id_ed25519.pub
 COPY and PASTE in github SSH Key Add
 ssh -T git@github.com
 
-Git branch:
-git branch 
-git branch dev
+// Git branch
+git branch  // List the branch
+git branch dev // Create branch "dev"
 git switch dev
 // push to dev branch on GitHub (Dev branch haven't set up on GitHub)
-git push origin dev
+git push origin dev 
+
+// git Merge
+git merge dev
+
+// Commit History
+git log --oneline
+
+// Reset - Use for local repository
+git reset --soft <the commit id>
+git reset --hard <the commit id>
+
+// Revert - Use for Remote Repository 
+git revert HEAD
+git revert <the commit id>
+
+
