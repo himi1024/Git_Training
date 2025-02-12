@@ -8,3 +8,9 @@ git add .
 git commit -m "<comment>"
 // Only version controlled files will be commited
 git commit -am "<comment>"
+
+SSH key adding:
+ssh-keygen -t ed25519 -C "himichan1024@gmail.com"
+cat /c/Users/night/.ssh/id_ed25519.pub
+COPY and PASTE in github SSH Key Add
+ssh -T git@github.com
