@@ -14,3 +14,10 @@ ssh-keygen -t ed25519 -C "himichan1024@gmail.com"
 cat /c/Users/night/.ssh/id_ed25519.pub
 COPY and PASTE in github SSH Key Add
 ssh -T git@github.com
+
+Git branch:
+git branch 
+git branch dev
+git switch dev
+// push to dev branch on GitHub (Dev branch haven't set up on GitHub)
+git push origin dev
